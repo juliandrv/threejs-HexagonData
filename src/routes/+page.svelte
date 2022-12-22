@@ -88,6 +88,10 @@
   $: tweenedProgress.set($progress);
 </script>
 
+<svelte:head>
+  <title>3D Christmas</title>
+</svelte:head>
+
 {#if $tweenedProgress < 1}
   <div
     transition:fade|local={{
