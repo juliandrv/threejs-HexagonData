@@ -1,0 +1,31 @@
+{
+	"name": "threlte",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/kit": "next",
+		"@types/three": "^0.146.0",
+		"svelte": "^3.53.1",
+		"svelte-check": "^2.7.1",
+		"svelte-preprocess": "^4.10.6",
+		"tslib": "^2.3.1",
+		"typescript": "^4.7.4",
+		"vite": "^3.2.4"
+	},
+	"type": "module",
+	"dependencies": {
+		"@threlte/core": "^5.0.2",
+		"@threlte/extras": "^4.8.0",
+		"@tweakpane/core": "^1.1.0",
+		"three": "^0.147.0",
+		"tweakpane": "^3.1.0"
+	}
+}
